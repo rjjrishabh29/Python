@@ -2,7 +2,7 @@
 import os
 import crypt
 count=0 
-string=input()
+string = input()
 for i in string :
         if i.isdigit() :
                 count=1
