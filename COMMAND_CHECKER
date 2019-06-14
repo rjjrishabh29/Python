@@ -5,8 +5,6 @@ com=input()
 while(com) :
 	f=open("comandlist",'a+')
 	f.write(com)
-	print("1")
-	print("4")
 	for i in f :
 		if(com == i) :
 			print("REPEATED")
