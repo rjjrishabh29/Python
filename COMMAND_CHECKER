@@ -10,7 +10,6 @@ while(com) :
 			print("REPEATED")
 			com=input()
 		if(which(com)) :
-			print("5")
 			os.system(com)
 		elif(com == "exit") :
 			sys.exit(0)		
