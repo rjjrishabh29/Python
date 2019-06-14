@@ -1,6 +1,6 @@
 from datetime import datetime
 print("ENTER YOUR NAME ")
-name = input()
+name = input() 
 print("ENTER YOUR AGE ")
 age = input()
 age_at95 = ((datetime.now().year)+95-(int(age)))
