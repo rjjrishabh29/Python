@@ -5,3 +5,4 @@ print("NUMBER GREATER THAN 5",num_lar_than5)
 num_smae_than2=[i for i in adhoc if i<=2]
 print("NUMBER SMALLER THAN 2", num_smae_than2)
 
+ 
