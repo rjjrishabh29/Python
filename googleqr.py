@@ -12,3 +12,4 @@ for i in topic :
 	url=pyqrcode.create(i)
 	url.svg("qr"+str(j) +".svg",scale=4)
 	j+=1
+ 
