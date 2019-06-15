@@ -24,7 +24,7 @@ if input1[:3] == "rid" :
 		b=open("b",'w')
 		print("b")
 		for i in f :	
-			b.write(i)
+			b.write(i) 
 	else :
 		for i in f :	
 			print(i)
