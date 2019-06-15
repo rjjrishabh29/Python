@@ -6,6 +6,6 @@ with open(fname ,'r') as f:
 	for line in f:
 		nwords  = line.split()
 		words += len(nwords)
-		lines += 1   
+		lines += 1    
 print(" Number of words: " ,words )
 print("Number of Lines: " ,lines)
