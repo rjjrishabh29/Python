@@ -8,7 +8,7 @@ while(com) :
 	for i in f :
 		if(com == i) :
 			print("REPEATED")
-			com=input()
+			com=input() 
 		if(which(com)) :
 			os.system(com)
 		elif(com == "exit") :
