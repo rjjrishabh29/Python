@@ -20,9 +20,7 @@ if input1[:3] == "rid" :
 			b.write(i)
 #REDIRECT OUTPUT OF A FILE TO OTHER FILE
 	elif input1[4] == '>' 				
-		print("a")
 		b=open("b",'w')
-		print("b")
 		for i in f :	
 			b.write(i) 
 	else :
