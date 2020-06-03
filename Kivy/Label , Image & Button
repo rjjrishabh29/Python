@@ -1,0 +1,66 @@
+Label
+
+from kivy.app import App
+from kivy.uix.label import Label
+
+class MainApp(App):
+    def build(self):
+        label = Label(text='Hello from Kivy')
+
+        return label
+
+if __name__ == '__main__':
+    app = MainApp()
+    app.run()
+
+
+
+
+
+Image 
+
+
+from kivy.app import App
+from kivy.uix.image import Image
+
+class MainApp(App):
+    def build(self):
+        img = Image(source='/path/to/real_python.png')
+
+        return img
+
+if __name__ == '__main__':
+    app = MainApp()
+    app.run()
+
+
+
+Button
+
+import kivy
+import random
+
+from kivy.app import App
+from kivy.uix.button import Button
+from kivy.uix.boxlayout import BoxLayout
+
+red = [1,0,0,1]
+green = [0,1,0,1]
+blue =  [0,0,1,1]
+purple = [1,0,1,1]
+
+class hBoxlayoutExample(App):
+    def build(self):
+        layout = BoxLayout()
+        colors= [red , green , blue , purple]
+
+        for i in range(5):
+            btn = Button(text='Button #%s' % (i+1),
+                         background_color=random.choice(colors) )
+            layout.add_widget(btn)
+        return layout
+
+
+if __name__ == "__main__":
+    app =  hBoxlayoutExample()
+    app.run()
